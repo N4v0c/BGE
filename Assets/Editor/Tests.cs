@@ -30,20 +30,26 @@ public class Tests
 	}
 
 	[Test]
-	public void tiltForce()
+	public void tiltTest()
 	{
-		float testStartPos = 0.5f;
-		float testTilt = 0.5f;
+		applyForce (0.0f, 0.0f);
+		applyForce (-1.0f, 1.0f);
+		applyForce (1.0f, -1.0f);
+	}
 
-		float newTiltH = Mathf.Max(-1.0f, Mathf.Min(1.0f, 2 * (testTilt - testStartPos)));
-		float newTiltV = Mathf.Max(-1.0f, Mathf.Min(1.0f, -2 * (testTilt - testStartPos)));
+	public void applyForce(float oldPos, float newPos)
+	{
+		float maxTilt = oldPos + 1.0f;
+		float minTilt = oldPos - 1.0f;
+		float newTiltH = Mathf.Max(minTilt, Mathf.Min(maxTilt, 2 * (newPos - oldPos)));
+		float newTiltV = Mathf.Max(minTilt, Mathf.Min(maxTilt, -2 * (newPos - oldPos)));
 
-		Assert.GreaterOrEqual (newTiltH, -1.0f);
-		Assert.LessOrEqual (newTiltH, 1.0f);
-		Assert.GreaterOrEqual (newTiltV, -1.0f);
-		Assert.LessOrEqual (newTiltV, 1.0f);
-		Debug.Log ("Horizontal: " + 2 * (testTilt - testStartPos));
-		Debug.Log ("Vertical: " + -2 * (testTilt - testStartPos));
+		Assert.GreaterOrEqual (newTiltH, minTilt);
+		Assert.LessOrEqual (newTiltH, maxTilt);
+		Assert.GreaterOrEqual (newTiltV, minTilt);
+		Assert.LessOrEqual (newTiltV, maxTilt);
+		Debug.Log ("Horizontal: " + (2 * (newPos - oldPos)));
+		Debug.Log ("Vertical: " + (-2 * (newPos - oldPos)));
 	}
 
 	[Test]

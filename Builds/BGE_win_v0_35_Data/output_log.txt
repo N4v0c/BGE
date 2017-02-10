@@ -1,0 +1,36 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)
+    Vendor:   NVIDIA
+    VRAM:     3013 MB
+    Driver:   21.21.13.7849
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.081 seconds
+Platform assembly: C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Paul Nowak\Documents\Unity\Best Game Ever\Builds\BGE_win_v0_35_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3360x1080 at -1440,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.130187 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 89c -> priority: 1 
+  Thread -> id: 21ac -> priority: 1 
+Bye!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
